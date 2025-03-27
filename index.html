@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscare - Telemedicina</title>
+    <meta name="description" content="Buscare - Plataforma de telemedicina com atendimento médico online 24 horas. Consultas médicas à distância com profissionais qualificados.">
+    <meta name="keywords" content="telemedicina, consulta online, médico online, atendimento médico, saúde digital">
+    <meta name="author" content="Buscare">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.buscare.com.br/">
+    <meta property="og:title" content="Buscare - Telemedicina | Atendimento Médico Online">
+    <meta property="og:description" content="Atendimento médico online 24 horas com profissionais qualificados. Consulte-se de onde estiver.">
+    <meta property="og:image" content="/imagens/logotipo.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.buscare.com.br/">
+    <meta property="twitter:title" content="Buscare - Telemedicina | Atendimento Médico Online">
+    <meta property="twitter:description" content="Atendimento médico online 24 horas com profissionais qualificados. Consulte-se de onde estiver.">
+    <meta property="twitter:image" content="/imagens/logotipo.png">
+    
+    <title>Buscare - Telemedicina | Atendimento Médico Online</title>
+    <link rel="icon" type="image/png" href="/imagens/logotipo.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- Remove the unused Swiper CSS -->
 </head>
 <body>
         <!-- Top Info Bar -->
@@ -22,7 +41,7 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <h1>Buscare</h1>
+                <h1><img src="/imagens/logotipo.png" alt="Logotipo Buscare" width="150" height="50">Buscare</h1>
             </div>
             <nav>
                 <ul>
@@ -41,7 +60,7 @@
 
     <main>
         <!-- Hero Section -->
-        <section class="hero-section" style="background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');">
+        <section class="hero-section" style="background-image: url('/imagens/unsplash.jpg');" role="banner" aria-label="Banner principal">
             <div class="hero-content">
                 <div class="hero-text">
                     <h2>Melhor cuidado para sua boa saúde</h2>
@@ -55,19 +74,19 @@
         <section class="service-cards">
             <div class="container">
                 <div class="card">
-                    <div class="icon">
+                    <div class="icon" aria-hidden="true">
                         <i class="fas fa-hospital"></i>
                     </div>
-                    <h3>EMERGENCIA CLÍNICA</h3>
+                    <h3>EMERGÊNCIA CLÍNICA</h3>
                 </div>
                 <div class="card">
-                    <div class="icon">
+                    <div class="icon" aria-hidden="true">
                         <i class="fas fa-user-md"></i>
                     </div>
                     <h3>CONSULTAS ONLINE</h3>
                 </div>
                 <div class="card">
-                    <div class="icon">
+                    <div class="icon" aria-hidden="true">
                         <i class="fas fa-heartbeat"></i>
                     </div>
                     <h3>CUIDADO 24 HORAS</h3>
@@ -76,13 +95,13 @@
         </section>
 
         <!-- Emergency Services Section -->
-        <section class="emergency-services">
+        <section class="emergency-services" aria-labelledby="emergency-title">
             <div class="container">
                 <div class="image-side">
-                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Equipe médica">
+                    <img src="/imagens/unsplash_1.jpg" alt="Equipe médica atendendo paciente em emergência" width="880" height="660">
                 </div>
                 <div class="content-side">
-                    <h2>24 Horas de serviços de emergência</h2>
+                    <h2 id="emergency-title">24 Horas de serviços de emergência</h2>
                     <p>Nossa equipe de profissionais está disponível 24 horas por dia, 7 dias por semana, para atender suas necessidades médicas urgentes. Oferecemos atendimento rápido e eficiente para garantir seu bem-estar.</p>
                     
                     <ul class="emergency-features">
@@ -97,16 +116,16 @@
         </section>
 
         <!-- Centers of Excellence -->
-        <section class="centers-excellence">
+        <section class="centers-excellence" aria-labelledby="excellence-title">
             <div class="section-header">
-                <h2>CENTRO DE <span class="highlight">EXCELÊNCIA</span></h2>
+                <h2 id="excellence-title">CENTRO DE <span class="highlight">EXCELÊNCIA</span></h2>
                 <p>Nosso compromisso é oferecer o melhor atendimento médico com profissionais altamente qualificados em diversas especialidades.</p>
             </div>
             
             <div class="excellence-cards">
                 <div class="excellence-card">
                     <div class="icon-circle">
-                        <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Eye Care" class="circle-image">
+                        <img src="/imagens/unsplash_2.jpg" alt="Consultório oftalmológico moderno com equipamentos especializados" width="880" height="660" class="circle-image" loading="lazy">
                     </div>
                     <h3>CUIDADOS COM OS OLHOS</h3>
                     <p>Cuidados oftalmológicos completos com especialistas em saúde ocular para diagnóstico e tratamento de problemas visuais.</p>
@@ -115,7 +134,7 @@
                 
                 <div class="excellence-card">
                     <div class="icon-circle">
-                        <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Dental Surgery" class="circle-image">
+                        <img src="/imagens/unsplash_3.jpg" alt="Consultório odontológico equipado com tecnologia moderna" width="880" height="660" class="circle-image" loading="lazy">
                     </div>
                     <h3>CIRURGIA DENTÁRIA</h3>
                     <p>Procedimentos odontológicos avançados realizados por profissionais experientes para garantir sua saúde bucal.</p>
@@ -124,7 +143,7 @@
                 
                 <div class="excellence-card">
                     <div class="icon-circle">
-                        <img src="https://images.unsplash.com/photo-1559757175-7cb057fba3c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Neurology Surgery" class="circle-image">
+                        <img src="/imagens/unsplash_4.jpg" alt="Centro de neurologia com equipamentos de última geração" width="880" height="660" class="circle-image" loading="lazy">
                     </div>
                     <h3>CIRURGIA NEUROLÓGICA</h3>
                     <p>Atendimento neurológico especializado com médicos capacitados para tratar diversas condições do sistema nervoso.</p>
@@ -134,11 +153,11 @@
         </section>
 
         <!-- Testimonials Section -->
-        <section class="depoimentos">
-            <h2>O que nossos clientes dizem</h2>
-            <div class="slider-container">
+        <section class="depoimentos" aria-labelledby="testimonials-title">
+            <h2 id="testimonials-title">O que nossos clientes dizem</h2>
+            <div class="slider-container" role="region" aria-label="Depoimentos dos clientes">
                 <div class="slider">
-                    <div class="slide">
+                    <div class="slide" role="tabpanel" aria-labelledby="testimonial-1"
                         <p>"Excelente serviço! Fui muito bem atendido e o processo foi super simples e rápido."</p>
                         <h4>- João Silva</h4>
                     </div>
@@ -153,10 +172,10 @@
                 </div>
             </div>
         
-            <div class="nav">
-                <label for="radio1" class="nav-btn"></label>
-                <label for="radio2" class="nav-btn"></label>
-                <label for="radio3" class="nav-btn"></label>
+            <div class="nav" role="tablist">
+                <label for="radio1" class="nav-btn" role="tab" aria-controls="slide1" aria-selected="true"></label>
+                <label for="radio2" class="nav-btn" role="tab" aria-controls="slide2" aria-selected="false"></label>
+                <label for="radio3" class="nav-btn" role="tab" aria-controls="slide3" aria-selected="false"></label>
             </div>
         
             <input type="radio" name="radio" id="radio1" checked>
